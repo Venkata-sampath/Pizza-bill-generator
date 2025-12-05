@@ -1,0 +1,14 @@
+# Java / VS Code
+*.class
+bin/
+out/
+target/
+.idea/
+.vscode/
+*.log
+*.tmp
+/.settings/
+/.classpath
+/.project
+/.classpath
+/.classpath
