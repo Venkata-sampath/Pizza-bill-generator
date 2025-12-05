@@ -1,18 +1,34 @@
-## Getting Started
+# Pizza Bill Generator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+This project contains a java app with source files in `src/`.
+Its a basic project to deepen java oop concepts. The project generates pizza bills for two pizza types "pizza" and "deluxe Pizza"
 
-The workspace contains two folders by default, where:
+## Requirements
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Java JDK 17 or newer
+- Git
+- VS Code (optional but recommended)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Setup (local)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Clone the repo:
 
-## Dependency Management
+```bash
+git clone https://github.com/yourusername/MyFirstJavaProject.git
+cd MyFirstJavaProject
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Compile and run (manual):
+
+```bash
+javac src/App.java
+java -cp src App
+```
+
+3. Run in VS Code:
+
+- Open the folder in VS Code.
+- Install the Extension Pack for Java if you haven't.
+- Open src/App.java and click the Run ▶ button above main().
